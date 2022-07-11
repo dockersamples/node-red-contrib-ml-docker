@@ -42,6 +42,4 @@ https://user-images.githubusercontent.com/20147381/170643573-2a2d70c2-7e0b-430b-
 
 https://user-images.githubusercontent.com/20147381/172834524-256d3f4b-3721-4ca8-8c64-b847988c04ac.mp4
 
-## Learn more
 
-For a more detailed step-by-step guide on using Node-RED for Edge AI Vision, please pay attention to this software.
