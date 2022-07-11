@@ -1,7 +1,7 @@
 # No-Code Edge AI Vision with Node-RED
 
-No-code is the future of software. It is a software development approach that requires few, if any, programming skills to quickly build an application.
-Node-RED is a low-code programming language for event driven applications. It provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. 
+No-code is a software development approach that requires few programming skills to quickly build an application.
+In the other hand, Node-RED is a low-code programming language for event driven applications. It provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. 
 
 It comes with a built-in library that allows you to save useful functions, templates or flows for re-use. 
 
