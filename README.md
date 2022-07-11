@@ -10,11 +10,10 @@ It comes with a built-in library that allows you to save useful functions, templ
 
 ## Prerequisites
 
-- NVIDIA Jetson device
+- [Seeed Studio reComputer J1010 with NVIDIA Jetson device](https://www.seeedstudio.com/Jetson-10-1-A0-p-5336.html)
+- [JetPack 4.6.1](https://developer.nvidia.com/jetpack-sdk-461)
 
-## Getting Started
 
-**Note:** For this guide, we have used a [reComputer J1010 with Jetson Nano](https://www.seeedstudio.com/Jetson-10-1-A0-p-5336.html) running [NVIDIA JetPack 4.6.1](https://developer.nvidia.com/jetpack-sdk-461)
 
 ### Step 1 - Install
 
