@@ -21,6 +21,15 @@ Node-RED is a low-code programming language for event driven applications. It is
 - Docker Compose
 
 
+## Getting Started
+
+1. Wire up the Hardware System
+
+
+<img width="532" alt="image" src="https://user-images.githubusercontent.com/313480/180950479-165f5226-0caf-4e0f-9910-7b9166bbb5ad.png">
+
+
+
 ### Step 1 - Install
 
 Clone this GitHub repo and run the installer
