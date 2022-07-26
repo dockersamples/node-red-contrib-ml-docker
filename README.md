@@ -1,18 +1,24 @@
-# No-Code Edge AI Vision with Node-RED and Docker
+# Build and Deploy a Retail Store Items Detection System using Node-RED on IoT Edge device
 
-No-code is a software development approach that requires few programming skills to quickly build an application.
-In the other hand, Node-RED is a low-code programming language for event driven applications. It provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. 
-
-It comes with a built-in library that allows you to save useful functions, templates or flows for re-use. 
+Node-RED is a low-code programming language for event driven applications. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. JavaScript functions can be created within the editor using a rich text editor. It comes with a built-in library that allows you to save useful functions, templates or flows for re-use.
 
 
-# Get started with AI vision at the Edge
 
-## Prerequisites
+## Hardware Components
+
 
 - [Seeed Studio reComputer J1010 with NVIDIA Jetson device](https://www.seeedstudio.com/Jetson-10-1-A0-p-5336.html)
-- [JetPack 4.6.1](https://developer.nvidia.com/jetpack-sdk-461)
+- USB Camera Module
+- Mini Wireless USB Adapter
+- Wireless USB Desktop Keyboard/Mouse
 
+
+## Software Components
+
+- [JetPack 4.6.1](https://developer.nvidia.com/jetpack-sdk-461)
+- NodeJS(for local development)
+- Docker  
+- Docker Compose
 
 
 ### Step 1 - Install
