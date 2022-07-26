@@ -2,7 +2,8 @@
 
 ## Pre-requisite
 
-- Seeed Studio 
+- Seeed Studio reComputer Jetson 
+- Docker
 
 
 - Install the latest version of Docker
