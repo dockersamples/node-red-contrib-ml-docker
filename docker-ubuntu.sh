@@ -105,15 +105,16 @@ docker-compose --file docker-compose.yaml  up -d
 #install node-red theme package
 docker exec retail-store-items-detection-nodered-node-red-1 bash -c "cd /data && npm install"
 
-# restart node-red-contrib-ml-node-red-1 container for the above changes to take into effect
+# restart retail-store-items-detection-nodered-node-red-1 container for the above changes to take into effect
 docker restart retail-store-items-detection-nodered-node-red-1
 
-#no deamon
-#docker-compose --file docker/docker-compose.yaml  up
-echo -e  "${IYellow}#########################################################################"
+# copy custom model into retail-store-items-detection-nodered-detection-1 container
+docker cp yolov5n.engine retail-store-items-detection-nodered-detection-1:/data/build
 
-#sudo docker login
-#sudo  docker tag  dev:dataloader-build baozhu/node-red-dataloader:v1.0
-#sudo  docker tag  dev:detection-build baozhu/node-red-detection:v1.0
-#sudo  docker push baozhu/node-red-detection:v1.0
-#sudo  docker push baozhu/node-red-dataloader:v1.0
+# remove label name
+docker exec -it retail-store-items-detection-nodered-detection-1 sed -i 's/person//' python/yolov5_trt.py
+
+# restart retail-store-items-detection-nodered-detection-1 container for changes to take into effect
+docker restart retail-store-items-detection-nodered-detection-1
+
+echo -e  "${IGreen}script executed successfully!"
