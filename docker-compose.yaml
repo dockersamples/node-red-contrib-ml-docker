@@ -7,8 +7,6 @@ services:
     volumes:
       - "$HOME/node-red:/data"
     user: "0"
-    ports:
-      - "1880:1880"
   dataloader:
     image: baozhu/node-red-dataloader:v1.2
     restart: always
@@ -18,13 +16,8 @@ services:
     devices:
     - "/dev:/dev"
     - "/var/run/udev:/var/run/udev"
-    ports:
-      - "5550:5550"
   detection:
     image: baozhu/node-red-detection:v1.2
     restart: always
     runtime: nvidia
     network_mode: "host"
-    ports:
-      - "5560:5560"
-    
